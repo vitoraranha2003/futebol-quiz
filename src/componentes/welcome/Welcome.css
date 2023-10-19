@@ -1,0 +1,205 @@
+@font-face {
+  font-family: "SoccerLeague.ttf";
+  src: url(/src/fontes/SoccerLeague.ttf)
+}
+
+body {
+  background-color: green;
+  font-family: "SoccerLeague.ttf";
+  color: black;
+}
+
+h1 {
+  letter-spacing: 5px;
+  text-align: center;
+  margin-top: 5vh;
+  font-size: 50px;
+}
+
+h2 {
+  letter-spacing: 5px;
+  text-align: center;
+  font-size: 30px;
+}
+
+img.bola_esquerda {
+  height: 10vh;
+  width: 9.5vw;
+}
+
+img.bola_direita {
+  height: 10vh;
+  width: 9.5vw;
+}
+
+
+img.campo {
+  height: 50vh;
+  width: 50vw;
+  margin-left: 24.4vw;
+  margin-top: 8vh;
+}
+
+div.painel {
+  display: flex;
+  align-items: center;
+  margin-left: 29.2vw;
+}
+
+button {
+  background-color: greenyellow;
+  font-family: "SoccerLeague.ttf";
+  height: 4.3vh;
+  width: 5.3vw;
+  font-size: 1.4vw;
+  display: flex;
+  margin-left: 46.8vw;
+  border-radius: 20px;
+  align-items: center;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+@keyframes spin_esquerda {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin_direita {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.bola_esquerda {
+  animation: spin_direita 2s linear infinite;
+}
+
+.bola_direita {
+  animation: spin_esquerda 2s linear infinite;
+}
+
+p.pontos {
+  font-family: "SoccerLeague.ttf";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1.7vw;
+  margin-top: 4vh;
+}
+
+@media screen and (max-width:1366px) and (max-height: 768px) {
+  @font-face {
+    font-family: "SoccerLeague.ttf";
+    src: url(/src/fontes/SoccerLeague.ttf)
+  }
+
+  body {
+    background-color: green;
+    font-family: "SoccerLeague.ttf";
+    color: black;
+  }
+
+  h1 {
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 50px;
+  }
+
+  h2 {
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 2vw;
+  }
+
+  img.bola_esquerda {
+    height: 10vh;
+    width: 9.5vw;
+  }
+
+  img.bola_direita {
+    height: 10vh;
+    width: 9.5vw;
+  }
+
+
+  img.campo {
+    height: 40vh;
+    width: 45vw;
+    margin-left: 26.4vw;
+    margin-top: 8vh;
+  }
+
+  div.painel {
+    display: flex;
+    align-items: center;
+    margin-left: 24vw;
+  }
+
+  button {
+    background-color: greenyellow;
+    font-family: "SoccerLeague.ttf";
+    height: 4.4vh;
+    width: 5.5vw;
+    font-size: 1.4vw;
+    display: flex;
+    margin-left: 46.2vw;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  button:hover {
+    background-color: darkgreen;
+  }
+
+  @keyframes spin_esquerda {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin_direita {
+    0% {
+      transform: rotate(360deg);
+    }
+
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  .bola_esquerda {
+    animation: spin_direita 2s linear infinite;
+  }
+
+  .bola_direita {
+    animation: spin_esquerda 2s linear infinite;
+  }
+
+  p.pontos {
+    font-family: "SoccerLeague.ttf";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.7vw;
+    margin-top: 4vh;
+  }
+}

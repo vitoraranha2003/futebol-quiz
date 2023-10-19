@@ -1,0 +1,47 @@
+p.gameover {
+    font-size: 100px;
+}
+
+button.nextfinal {
+    background-color: rgb(7, 142, 7);
+    font-family: "SoccerLeague.ttf";
+    width: 8vw;
+    font-size: 2vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    margin-left: 46vw;
+    margin-top: 4vh;
+    font-size: 34px;
+}
+
+button.nextfinal:hover {
+    background-color: darkgreen;
+}
+
+@media screen and (max-width:1366px) and (max-height: 768px) {
+    p.gameover {
+        font-size: 60px;
+    }
+    
+    button.nextfinal {
+        background-color: rgb(7, 142, 7);
+        font-family: "SoccerLeague.ttf";
+        width: 8vw;
+        font-size: 2vw;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 10vh;
+        margin-left: 46vw;
+        margin-top: 4vh;
+        font-size: 22px;
+    }
+    
+    button.nextfinal:hover {
+        background-color: darkgreen;
+    }
+}
